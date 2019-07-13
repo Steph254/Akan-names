@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Akan names</title>
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>Akan names calculator</h1>
+    <p align="center">This application calculates which day day of the week you were born and gives you the Akan name that
+    corresponds to the day you were born.Once you fill in the form and click on submit an Akan name will base
+    assigned to you.Here is a list of how the Akan names correspond to days of the week for both female and male genders:
+    <div>
+      <h4>Male akan names</h4>
+        <ul>
+          <li>Sunday:Kwasi</li>
+          <li>Monday:Kwadwo</li>
+          <li>Tuesday:Kwabena</li>
+          <li>Wednesday:Kwaku</li>
+          <li>Thursday:Yaw</li>
+          <li>Friday: Kofi</li>
+          <li>Saturday: Kwame</li>
+        </ul>
+       <h4>Female akan names</h4>
+       <ul>
+         <li>Sunday:Akosua</li>
+         <li>Monday: Adwoa</li>
+         <li>Tuesday: Abenaa</li>
+         <li>Wednesday: Akua</li>
+         <li>Thursday:Yaa</li>
+         <li>Friday:Afua</li>
+         <li>Saturday: Ama</li>
+       </ul>
+    </div>
+
+   </p>
+    <div align="center">
+      <form name="myForm" onsubmit="event.preventDefault();calculateBirthday()">
+        Enter day of month born <br>
+        <input name="date" type="number" class="birthday" placeholder="Enter birthday date" required><br>
+        Enter month born <br>
+        <input  name="month"type="number" class="birthday" placeholder="Enter month born" required><br>
+        Enter century born.
+        Example the year 1989 century is 19.<br>
+        <input name="century"type="number" class="birthday" placeholder="Enter century born(the first two numbers of the year you were born)" required><br>
+        Enter last two digits of year born.<br>
+        <input  name="year" type="number" class="birthday" placeholder="Enter year born(the last two digits of year born)"required><br>
+        Male<input name="gender"type="radio" class="gender" value="male" required>
+        Female<input name="gender"type="radio" class="gender" value="female" required>
+        <input type="submit"><br>
+      </form>
+      <p id="akan"></p>
+
+    </div>
+
+  </body>
+  <script src="js/script.js"></script>
+</html>
