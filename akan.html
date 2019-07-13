@@ -5,15 +5,16 @@
       <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
-    <h1>Akan names Calculator</h1>
-<form>
-  <input type="number" class="birthday" placeholder="Enter birthday date"><br>
-  <input type="number" class="birthday" placeholder="Enter month born"><br>
-  <input type="number" class="birthday" placeholder="Enter century born(the first two numbers of the year you were born)"><br>
-  <input type="number" class="birthday" placeholder="Enter year born(the last two digits of year born)"><br>
-  Male<input type="radio" class="gender" value="male"><br>
-  Female<input type="radio" class="gender" value="female"><br>
+    <h1>Akan names calculator</h1>
+<form name="myForm" onsubmit="calculateBirthday()">
+  <input name="date" type="number" class="birthday" placeholder="Enter birthday date"><br>
+  <input  name="month"type="number" class="birthday" placeholder="Enter month born"><br>
+  <input name="century"type="number" class="birthday" placeholder="Enter century born(the first two numbers of the year you were born)"><br>
+  <input  name="year" type="number" class="birthday" placeholder="Enter year born(the last two digits of year born)"><br>
+  Male<input name="gender"type="radio" class="gender" value="male"><br>
+  Female<input name="gender"type="radio" class="gender" value="female"><br>
  <input type="submit"><br>
 </form>
   </body>
+  <script src="js/script.js"></script>
 </html>
