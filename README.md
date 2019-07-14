@@ -10,6 +10,8 @@ This project was done by Stephania Mutinda.
 To access the page just click on this live page link
 For more information about akan names click on the link at the bottom of the page.
 # BDD
+Before thinking about the code part of it,I thought of what the application would require from a user which is input.
+I started by creating the forms in my html document and then proceeded on to the JavaScript part of it to make my froms funtional.After that is when I used css styles to male the landing page more appealing.
 
 # Technologies used
  HTML
