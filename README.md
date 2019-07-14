@@ -7,7 +7,7 @@ an akan-name is given to them.
 # Author
 This project was done by Stephania Mutinda.
 # Set up instruction
-To access the page just click on this live page link
+To access the  live page just click on this link https://stephania-hp.github.io/Akan-names/
 For more information about akan names click on the link at the bottom of the page.
 # BDD
 Before thinking about the code part of it,I thought of what the application would require from a user which is input.
